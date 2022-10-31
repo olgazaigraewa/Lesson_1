@@ -19,7 +19,6 @@ public class Book {
 
     }
 
-
     public String getName() {
         return this.name;
     }
@@ -31,7 +30,6 @@ public class Book {
     public void setYearPublishing(int yearPublishing) {
         this.yearPublishing = yearPublishing;
     }
-
     @Override
     public String toString() {
         return "Book{" +

@@ -7,7 +7,6 @@ public class MyFirstClass {
     public String toString() {
         return "MyFirstClass{}";
     }
-
     public static void main(String[] args) {
         Author author = new Author("Nikolai", "Nosov");
         Book book = new Book("Dreamers", author,1997);
