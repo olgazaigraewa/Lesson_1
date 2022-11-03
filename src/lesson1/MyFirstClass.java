@@ -22,14 +22,14 @@ public class MyFirstClass {
 
         System.out.println(" ");
         Author author1 = new Author(" Mikhail", "Bulgakov");
-        Book book1 = new Book("MasterAndMargarita",author, 1990);
+        Book book1 = new Book("MasterAndMargarita",author1, 1990);
         System.out.println("book1.getName() = " + book1.getName());
         System.out.println("author1.getFirstName() = " + author1.getFirstName());
         System.out.println("author1.getLastName() = " + author1.getLastName());
         System.out.println("book1.getYearPublishing() = " + book1.getYearPublishing());
         System.out.println(book1.getName() + " " + author1.getFirstName() + " " + author1.getLastName() + " " + book1.getYearPublishing());
         System.out.println(new Author(" Mikhail", "Bulgakov"));
-        System.out.println(new Book("MasterAndMargarita",author, 1990));
+        System.out.println(new Book("MasterAndMargarita",author1, 1990));
 
     }
 
