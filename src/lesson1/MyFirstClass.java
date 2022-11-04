@@ -16,7 +16,7 @@ public class MyFirstClass {
         System.out.println("book.yearPublishing = " + book.getYearPublishing());
         book.setYearPublishing(2000);
         System.out.println("book.getYearPublishing() = " + book.getYearPublishing());
-        System.out.println(book.getName() + " " + author.getFirstName() + " " + author.getLastName() + " " + book.getYearPublishing());
+        System.out.println("book.toString() = " + book.toString());
         System.out.println(new Author("Nikolai", "Nosov"));
         System.out.println(new Book("Dreamers", author,2000));
 
@@ -27,9 +27,9 @@ public class MyFirstClass {
         System.out.println("author1.getFirstName() = " + author1.getFirstName());
         System.out.println("author1.getLastName() = " + author1.getLastName());
         System.out.println("book1.getYearPublishing() = " + book1.getYearPublishing());
-        System.out.println(book1.getName() + " " + author1.getFirstName() + " " + author1.getLastName() + " " + book1.getYearPublishing());
         System.out.println(new Author(" Mikhail", "Bulgakov"));
         System.out.println(new Book("MasterAndMargarita",author1, 1990));
+
 
     }
 
